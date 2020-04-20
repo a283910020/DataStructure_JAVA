@@ -20,6 +20,8 @@ public class TestNode {
         n1.showAll();
         n1.removeNext();
         n1.showAll();
+        n1.removeNext();
+        n1.showAll();
 
 
     }
