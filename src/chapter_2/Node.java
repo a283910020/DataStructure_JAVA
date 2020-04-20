@@ -10,7 +10,7 @@ public class Node {
         this.data = data;
     }
 
-    public Node append(Node node){
+    public Node addNode(Node node){
 //        this.next = node;
         Node current = this;
 
@@ -23,6 +23,13 @@ public class Node {
         }
         current.next = node;
         return this;
+
+    }
+
+    public void insert_after(Node node){
+        Node nextNext = next;
+        this.next = node;
+        node.next = nextNext;
 
     }
 

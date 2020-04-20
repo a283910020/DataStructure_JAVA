@@ -8,20 +8,21 @@ public class TestNode {
         Node n3 = new Node(3);
 
 
-        n1.append(n2);
-        n1.append(n3);
+        n1.addNode(n2);
+        n1.addNode(n3);
+//        n1.append(n3);
 
-        System.out.println(n1.isLast());
-        System.out.println(n2.isLast());
-        System.out.println(n3.isLast());
-
-        System.out.println(n1.next.next.getData());
+//        System.out.println(n1.isLast());
+//        System.out.println(n2.isLast());
+//        System.out.println(n3.isLast());
+//
+//        System.out.println(n1.next.next.getData());
 
         n1.showAll();
-        n1.removeNext();
-        n1.showAll();
-        n1.removeNext();
-        n1.showAll();
+//        n1.removeNext();
+//        n1.showAll();
+//        n1.removeNext();
+//        n1.showAll();
 
 
 
