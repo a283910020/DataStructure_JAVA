@@ -10,7 +10,7 @@ public class Node {
         this.data = data;
     }
 
-    public Node addNode(Node node){
+    public void addNode(Node node){
 //        this.next = node;
         Node current = this;
 
@@ -22,7 +22,7 @@ public class Node {
             current = nextNode;
         }
         current.next = node;
-        return this;
+//        return this;
 
     }
 

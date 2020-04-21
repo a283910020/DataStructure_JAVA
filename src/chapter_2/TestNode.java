@@ -10,7 +10,8 @@ public class TestNode {
 
         n1.addNode(n2);
         n1.addNode(n3);
-//        n1.append(n3);
+//        n1.addNode(n3);
+        n1.addNode(new Node(4));
 
 //        System.out.println(n1.isLast());
 //        System.out.println(n2.isLast());
@@ -18,11 +19,10 @@ public class TestNode {
 //
 //        System.out.println(n1.next.next.getData());
 
+//        n1.removeNext();
+//        n1.showAll();
+//        n1.removeNext();
         n1.showAll();
-//        n1.removeNext();
-//        n1.showAll();
-//        n1.removeNext();
-//        n1.showAll();
 
 
 
