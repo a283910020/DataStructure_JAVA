@@ -10,10 +10,13 @@ public class DoublyNode {
         this.data = data;
     }
 
+
+
     public void insertAfter(DoublyNode node){
 
         DoublyNode nextNext = next;
         this.next = node;
+
         node.prev = this;
         node.next = nextNext;
         nextNext.prev = node;
